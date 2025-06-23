@@ -1,0 +1,220 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0 0 33);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(16, 16, 82);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 9999;
+}
+
+nav .left {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+nav .right ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .right ul li {
+  margin: 0 15px;
+}
+
+nav .right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .right ul li a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+/* First Section */
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.leftsection {
+  font-size: 3rem;
+  flex: 1 1 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.leftsection .btn {
+  margin-top: 20px;
+}
+
+.rightsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.rightsection img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgb(89, 221, 221), 0 0 40px #0ff, 0 0 60px #0ff;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.skills .left h1 {
+  color: brown;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills li img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Contact Section */
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #0d0d30;
+  padding: 60px 20px;
+}
+
+#contact .left,
+#contact .right {
+  flex: 1 1 45%;
+  padding: 20px;
+}
+
+#contact img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Resume Button */
+.resume {
+  background-color: rgb(4, 121, 121);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.res {
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+.fot {
+  text-align: center;
+  padding: 20px;
+  background-color: #121244;
+  color: white;
+}
+
+/* Common */
+.purple {
+  color: rgb(109, 6, 206);
+}
+
+#element {
+  color: rgb(98, 98, 238);
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #00b894;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+main hr {
+  border: none;
+  border-top: 1px solid #aaa;
+  margin: 40px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  nav .right ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  nav .right ul li {
+    margin: 10px 0;
+  }
+.firstsection {
+    flex-direction: column;
+    text-a
+}
+}
